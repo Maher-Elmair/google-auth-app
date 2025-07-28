@@ -87,6 +87,14 @@ This project provides a minimal and effective Google authentication flow using R
 
 > ⚠️ *Make sure to update the URL once the repo is deployed.*
 
+> 🧪 **Note:** This project is intended to run only on `localhost`.  
+> Google OAuth (via `@react-oauth/google`) requires authorized origins to be explicitly set in the Google Cloud Console.  
+> Since this app is not linked to a deployed domain, only `http://localhost` is allowed by default.  
+> To run it live, you would need to:
+> - Add your custom domain to the OAuth "Authorized JavaScript origins".
+> - Set up secure hosting (e.g., with HTTPS).
+
+
 ---
 
 ## 🙌 Thank You
